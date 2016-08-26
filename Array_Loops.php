@@ -7,7 +7,7 @@
 		<p>1. Дан массив с элементами 'html', 'css', 'php', 'js', 'jq'. С помощью цикла foreach выведите эти слова в столбик. [3 балла]</p>
 	<h3>Решение задания 1</h3>
 	<?php
-		$array = array('html', 'css', 'js', 'jq');?>
+		$array = array('html', 'css', 'php', 'js', 'jq');?>
 		<ul>
 			<?php foreach($array as $v):?>
 				<li><?php echo $v ?></li>
